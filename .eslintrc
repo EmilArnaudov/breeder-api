@@ -1,0 +1,27 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint",
+          "prettier"
+    ],
+    "parserOptions": {
+        "project": "tsconfig.json"
+      },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+    //   "plugin:@shopify/typescript",
+    //   "plugin:@shopify/typescript-type-checking",
+    "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": [
+          2,
+            {
+             "endOfLine": "auto",
+            }
+        ] // Means error
+  }
+  }
